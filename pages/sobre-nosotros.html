@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapidos y Fogosos</title>
+    <link rel="stylesheet" href="/style/Navfooter.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/sobre-nosotros.css" />
+    <link rel="icon" href="/img/img nav-footer/film-icon-0.ico">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"/>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg py-1 fixed-top border border-secondary navbar-dark" id="nav">
+        <div class="container-fluid">
+          <a href="/index.html"><img src="/img/img nav-footer/rapidosyf-fotor-bg-remover-20230818122436.png" alt="logo" id="img-nav"/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section class="offcanvas offcanvas-start bg-dark" id="navbarSupportedContent" tabindex="-1">
+            <div class="offcanvas-header" data-bs-theme="dark">
+              <h5 class="offcanvas-title text-white">Menu</h5>
+              <button
+                class="btn-close"
+                type="button"
+                aria-label="Close"
+                data-bs-dismiss="offcanvas">
+              </button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column justify-content-start px-0">
+              <ul class="navbar-nav fs-5">
+                <li class="nav-item p-3 py-md-1">
+                  <a href="/pages/error404.html" class="nav-link">Series</a>
+                </li>
+                <li class="nav-item p-3 py-md-1">
+                  <a href="/pages/error404.html" class="nav-link">Peliculas</a>
+                </li>
+                <li class="nav-item p-3 py-md-1 d-lg-none">
+                  <a href="/pages/error404.html" class="nav-link">Categorias</a>
+                </li>
+                <li class="nav-item p-3 py-md-1">
+                  <a href="/pages/suscripcion.html">
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary fw-bold text-white">Suscribete
+                    </button>
+                  </a>
+                </li>
+                <li id="search-login">
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Buscar"
+                      aria-label="Buscar"
+                      required
+                      maxlength="30"
+                      minlength="3"
+                      pattern="[a-zA-Z ]{2,254}"/>
+                    <button class="btn btn-outline-light fw-bold" type="submit">
+                      <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                    </button>
+                  </form>
+                </li>
+                <li class="nav-item p-3 py-md-1 ml-5" id="search-login">
+                  <a class="ms-4" href="/pages/login.html">
+                    <i
+                      class="fa-solid fa-user fa-xl"
+                      style="color: #ffffff">
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid">
+      <div class="content border border-secondary">
+        <div class="hero row p-2 mt-5">
+          <div class="about col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+            <h1 class="fw-bold text-white text-center">Sobre nosotros</h1>
+            <p class="text-secondary text-start">
+              Somos un grupo de estudiantes pertenecientes a Rolling Code.
+              <br />
+              Tenemos el objetivo de lograr una pagina web en la cual ofrecemos
+              servicio de Streaming. <br />
+              Nuestra pagina cuenta con una interfaz sencilla y de facil
+              comprension por las demas personas. <br />
+              Aquí tendras facil acceso a peliculas estreno y las mejores series
+              sin moverte de tu casa.
+            </p>
+            <h3 class="fw-bold text-white text-center">Frase</h3>
+            <p class="text-secondary text-center">
+              "No hay trabajo duro para un equipo organizado"
+            </p>
+          </div>
+          <div class="img-hero col-sm-12 col-md-8">
+            <img
+              src="/img/img-sobreNosotros/equipo-desarrollo.jpg"
+              alt="Hero"
+              class="img-fluid"/>
+          </div>
+        </div>
+        <div class="separator border border-secondary mt-5 mb-5"></div>
+        <h2 class="text-center mt-5 fw-bold text-white">
+          Equipo de desarrollo
+        </h2>
+        <div class="team row g-0 justify-content-center gap-4 mb-5">
+          <div class="card col-sm-12 col-12 bg-dark text-white border border-secondary">
+            <img
+              src="/img/img-sobreNosotros/yo.jpg"
+              class="card-img"
+              alt="Torres Mauricio"/>
+            <div class="card-body">
+              <h5 class="card-title text-center">Torres Mauricio</h5>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-lg-6 bg-dark text-white border border-secondary">
+            <img
+              src="/img/img-sobreNosotros/abel reynoso.jpg"
+              class="card-img"
+              alt="Reynoso Abel"/>
+            <div class="card-body">
+              <h5 class="card-title text-center">Reynoso Abel</h5>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-lg-6 bg-dark text-white border border-secondary">
+            <img
+              src="/img/img-sobreNosotros/dani cabral.jpg"
+              class="card-img"
+              alt="Cabral Daniel"/>
+            <div class="card-body">
+              <h5 class="card-title text-center">Cabral Daniel</h5>
+            </div>
+          </div>
+          <div class="card col-sm-12 col-lg-6 bg-dark text-white border border-secondary">
+            <img
+              src="/img/img-sobreNosotros/nico paz.jpg"
+              class="card-img"
+              alt="Paz Nicolas"/>
+            <div class="card-body">
+              <h5 class="card-title text-center">Paz Nicolas</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container-fluid border border-secondary mt-2">
+      <div class="container-footer py-3 row">
+        <div class="img-footer col-sm-4">
+          <img
+            src="/img/img nav-footer/rapidosyf-fotor-bg-remover-20230818122436.png"
+            alt="logopelicula"
+            id="img-footer"/>
+        </div>
+        <div class="info-footer d-flex flex-column col-sm-4 my-auto" id="div-info">
+          <a class="mx-0 text-center" href="/pages/sobre-nosotros.html"><i class="fa-solid fa-address-card px-2" style="color: #ffffff"></i>Sobre nosotros
+          </a>
+          <a class="mx-0 text-center" href="/pages/contacto.html"><i class="fa-solid fa-phone px-2" style="color: #ffffff"></i>Contáctanos
+          </a>
+        </div>
+        <div class="iconos-footer col-sm-4 my-sm-auto d-flex justify-content-evenly       justify-content-sm-around mt-3">
+          <a href="/pages/error404.html">
+            <i class="fa-brands fa-xl fa-facebook" style="color: #ffffff"></i>
+          </a>
+          <a href="/pages/error404.html">
+            <i class="fa-brands fa-xl fa-instagram" style="color: #ffffff"></i>
+          </a>
+          <a href="/pages/error404.html">
+            <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff"></i>
+          </a>
+          <a href="/pages/error404.html">
+            <i class="fa-brands fa-xl fa-youtube" style="color: #ffffff"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/1cc1d82c1f.js" crossorigin="anonymous"></script>
+  </body>
+</html>

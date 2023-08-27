@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapidos y Fogosos - Terror</title>
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/categorias.css" />
+    <link rel="stylesheet" href="/style/Navfooter.css" />
+    <link rel="icon" href="/img/img nav-footer/film-icon-0.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg py-1 fixed-top border border-secondary navbar-dark" id="nav">
+        <div class="container-fluid">
+          <a href="/index.html"><img src="/img/img nav-footer/rapidosyf-fotor-bg-remover-20230818122436.png" alt="logo" id="img-nav"/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section
+            class="offcanvas offcanvas-start bg-dark"
+            id="navbarSupportedContent"
+            tabindex="-1">
+            <div class="offcanvas-header" data-bs-theme="dark">
+              <h5 class="offcanvas-title text-white">Menu</h5>
+              <button
+                class="btn-close"
+                type="button"
+                aria-label="Close"
+                data-bs-dismiss="offcanvas">
+              </button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column justify-content-start px-0">
+              <ul class="navbar-nav fs-5">
+                <li class="nav-item p-3 py-md-1">
+                  <a href="/pages/error404.html" class="nav-link">Series</a>
+                </li>
+                <li class="nav-item p-3 py-md-1">
+                  <a href="/pages/error404.html" class="nav-link">Peliculas</a>
+                </li>
+                <li class="nav-item p-3 py-md-1 d-lg-none">
+                  <a href="/pages/error404.html" class="nav-link">Categorias</a>
+                </li>
+                <li class="nav-item p-3 py-md-1">
+                  <a href="/pages/suscripcion.html">
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary fw-bold text-white">Suscribete
+                    </button>
+                  </a>
+                </li>
+                <li id="search-login">
+                  <form class="d-flex">
+                    <input
+                      class="form-control me-2"
+                      type="search"
+                      placeholder="Buscar"
+                      aria-label="Buscar"
+                      required
+                      maxlength="30"
+                      minlength="3"
+                      pattern="[a-zA-Z ]{2,254}"/>
+                    <button class="btn btn-outline-light fw-bold" type="submit">
+                      <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                    </button>
+                  </form>
+                </li>
+                <li class="nav-item p-3 py-md-1 ml-5" id="search-login">
+                  <a class="ms-4" href="/pages/login.html">
+                    <i
+                      class="fa-solid fa-user fa-xl"
+                      style="color: #ffffff">
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid border border-secondary">
+      <div class="science-fiction-title mb-4">
+        <div class="card bg-dark text-white">
+          <img
+            class="card-img"
+            src="/img/img-cat-terror/elexorcista.jpg"
+            alt="Card image"/>
+          <div class="card-img-overlay">
+            <h1 class="card-title text-center text-white">
+              Peliculas de Terror
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-cf-cards gap-1">
+        <div class="d-flex justify-content-around">
+          <div class="card col-lg-3 mb-4" id="cards">
+            <img
+              src="/img/img-cat-terror/it.jpg"
+              class="card-img-top"
+              alt="It"/>
+            <div class="card-body opacity-75 bg-secondary text-dark text-center">
+              <h5 class="card-title">It</h5>
+            </div>
+          </div>
+
+          <div class="card col-lg-3 mb-4" id="cards">
+            <img
+              src="/img/img-cat-terror/anabelle.jpg"
+              class="card-img-top"
+              alt="Anabelle"/>
+            <div class="card-body opacity-75 bg-secondary text-dark text-center">
+              <h5 class="card-title">Anabelle</h5>
+            </div>
+          </div>
+
+          <div class="card col-lg-3 mb-4" id="cards">
+            <img
+              src="/img/img-cat-terror/oujia.jpg"
+              class="card-img-top"
+              alt="Ouija"/>
+            <div class="card-body opacity-75 bg-secondary text-dark text-center">
+              <h5 class="card-title">Ouija</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div aria-label="Pagination ciencia y ficcion">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="/pages/error404.html">Anterior</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="/pages/error404.html">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="/pages/error404.html">2</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="/pages/error404.html">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="/pages/error404.html">Siguiente</a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="container-fluid border border-secondary mt-2">
+      <div class="container-footer py-3 row">
+        <div class="img-footer col-sm-4">
+          <img
+            src="/img/img nav-footer/rapidosyf-fotor-bg-remover-20230818122436.png"
+            alt="logopelicula"
+            id="img-footer"/>
+        </div>
+        <div class="info-footer d-flex flex-column col-sm-4 my-auto" id="div-info">
+          <a class="mx-0 text-center" href="/pages/sobre-nosotros.html"><i class="fa-solid fa-address-card px-2" style="color: #ffffff"></i>Sobre nosotros
+          </a>
+          <a class="mx-0 text-center" href="/pages/contacto.html"><i class="fa-solid fa-phone px-2" style="color: #ffffff"></i> Contáctanos
+          </a>
+        </div>
+        <div class="iconos-footer col-sm-4 my-sm-auto d-flex justify-content-evenly justify-content-sm-around mt-3">
+          <a href="/pages/error404.html">
+            <i class="fa-brands fa-xl fa-facebook" style="color: #ffffff"></i>
+          </a>
+          <a href="/pages/error404.html">
+            <i class="fa-brands fa-xl fa-instagram" style="color: #ffffff"></i>
+          </a>
+          <a href="/pages/error404.html">
+            <i class="fa-solid fa-envelope fa-xl" style="color: #ffffff"></i>
+          </a>
+          <a href="/pages/error404.html">
+            <i class="fa-brands fa-xl fa-youtube" style="color: #ffffff"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1cc1d82c1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

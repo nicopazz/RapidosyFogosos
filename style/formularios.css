@@ -1,0 +1,32 @@
+#main {
+  margin-top: 250px;
+}
+.estandar {
+  background-color: #6C757D;
+}
+.oro {
+  background-color: #FFC107;
+}
+.platinium {
+  background-color: #F8F9FA;
+}
+#div-1 {
+  align-items: center;
+  border-radius: 10px;
+  border-radius: 10px;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#divs-complete {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+li > a {
+  text-decoration: none;
+  color: white;
+}
+#footer {
+  margin-top: 320px;
+}

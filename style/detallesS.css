@@ -1,0 +1,122 @@
+#img-nav {
+  width: 20rem;
+  height: 5rem;
+}
+#img-suscripcion {
+  width: 90px;
+  margin-left: -33px;
+  margin-top: -4px;
+}
+#login-nav {
+  width: 40px;
+}
+
+#button-nav {
+  width: 100px;
+  height: 30px;
+  margin-top: 6px;
+}
+#img-btn-hamburguesa {
+  width: 40px;
+  margin-left: -20px;
+}
+
+@media (max-width: 399px) {
+  #img-nav {
+    width: 10rem;
+    height: 2rem;
+  }
+}
+@media (max-width: 239px) {
+  #img-nav {
+    width: 5rem;
+    height: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  #navbarSupportedContent ul li .text-inicio {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 393px) {
+  #btn-hamburguesa {
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 370px) {
+  #btn-hamburguesa {
+    margin-top: 5px;
+  }
+}
+@media (max-widht: 992px) {
+  #nav-search {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  #btn-subscricpcion {
+    display: none;
+  }
+}
+@media (max-width: 398px) {
+  #title-logo {
+    flex-direction: column;
+  }
+}
+
+/* inicio del main */
+
+#img-section {
+  width: 25rem;
+  height: 30rem;
+}
+#text-secundary {
+  color: #5d6b79;
+}
+#iframe {
+  width: 60vw;
+  height: 40vw;
+}
+@media (max-width: 399px) {
+  #section-principal {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 399px) {
+  main {
+    margin-top: 0px;
+  }
+}
+
+/* section listas de series */
+
+#img-serie {
+  width: 15vw;
+}
+
+#episodios {
+  border-bottom: 1px solid gray;
+}
+#episodios a {
+  text-decoration: none;
+}
+
+/* series relacionadas */
+
+#img-series-relacionadas {
+  width: 10vw;
+  height: 10vw;
+}
+@media (max-width: 991px) {
+  #img-series-relacionadas {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+@media (max-width: 575px) {
+  #img-series-relacionadas {
+    width: 50vw;
+    height: 30vw;
+  }
+}

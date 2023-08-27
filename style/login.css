@@ -1,0 +1,95 @@
+#img-nav {
+  margin-left: 50px;
+  width: 70px;
+}
+#img-suscripcion {
+  width: 90px;
+  margin-left: -33px;
+  margin-top: -4px;
+}
+#login-nav {
+  width: 40px;
+}
+
+#button-nav {
+  width: 100px;
+  height: 30px;
+  margin-top: 6px;
+}
+#img-btn-hamburguesa {
+  width: 40px;
+  margin-left: -20px;
+}
+#div-container-form {
+  margin-top: 170px;
+  width: 80%;
+}
+
+.info-footer a {
+  color: white;
+  text-decoration-color: white;
+}
+.container-footer {
+  background-color: rgb(84, 77, 77);
+}
+#tam-img {
+  width: 80px;
+}
+.colorbod {
+  background-color: #434c61;
+}
+.colorsect {
+  background-color: #436d99;
+}
+
+.icon {
+  position: absolute;
+  padding: 12px;
+  outline: none;
+}
+
+.padd {
+  padding: 6px 12px 6px 30px;
+}
+
+#footer {
+  margin-top: 40px;
+}
+
+@media (max-width: 1000px) {
+  #li-form {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  #navbarSupportedContent ul li .text-inicio {
+    margin-top: 100px;
+  }  
+}
+
+
+
+@media (max-width: 393px) {
+  #btn-hamburguesa {
+    margin-left: -10px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 375px) {
+  #btn-hamburguesa {
+    margin-right: 150px;
+    margin-top: 5px;
+  }
+}
+@media (max-widht: 992px) {
+  #nav-search {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  #btn-subscricpcion {
+    display: none;
+  }
+}
+
+

@@ -1,0 +1,29 @@
+.container {
+  margin-top: 100px;
+}
+
+.science-fiction-title {
+  position: relative;
+  width: 100%;
+}
+
+.science-fiction-title .card-title {
+  margin-top: 200px;
+
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+}
+
+.science-fiction-title img {
+  width: 100%;
+  height: 400px;
+}
+
+#cards {
+  width: 30vw;
+}
+/* .category-cf-cards .card {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+} */

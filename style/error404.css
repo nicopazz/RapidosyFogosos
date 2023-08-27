@@ -1,0 +1,46 @@
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+.btn-style {
+  display: block;
+  margin: 8px;
+  padding: 4px;
+  background-color: gray;
+  border-radius: 5px;
+}
+
+main {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+
+.main img {
+  width: 40vw;
+  height: 20vw;
+}
+
+@media (max-width: 1200px ){
+  .main img{
+    
+    width: 55vw;
+    height: 35vw;
+
+  }
+}
+
+@media (min-width: 1201px ){
+  .main img{
+    
+    width: 55vw;
+    height: 35vw;
+
+  }
+}
+
+
+
+
