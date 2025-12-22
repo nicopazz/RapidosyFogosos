@@ -1,12 +1,30 @@
-
-
 nav {
-    background-color: #182738;
+    background-color: #14213d; /* Igual que tu variable primary-color */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5); /* Agrega una sombra para que flote sobre el contenido */
 }
 main {
     margin-top: 100px;
     overflow: hidden;
     
+}
+
+/* En Navfooter.css */
+#search-login form input {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo transparente */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white; /* Texto blanco al escribir */
+    border-radius: 20px; /* Más redondo, estilo píldora */
+    padding-left: 15px;
+}
+
+#search-login form input::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Placeholder gris claro */
+}
+
+#search-login form input:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    border-color: var(--title-color-orange); /* Tu color naranja al hacer clic */
 }
 
 #img-nav {

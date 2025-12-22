@@ -1,3 +1,8 @@
+
+body#home .card {
+    border: none !important;
+    background: transparent !important;
+}
 .container {
   margin-top: 100px;
 }

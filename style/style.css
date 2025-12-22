@@ -14,7 +14,8 @@
 }
 
 body {
-  background-color: #001d3d !important;
+    background: linear-gradient(180deg, #001d3d 0%, #000814 100%) !important;
+    min-height: 100vh;
 }
 
 ul {
@@ -25,8 +26,25 @@ ul {
   background-color: var(--primary-color);
 }
 
+.movies-cards > h3,
+.series-cards > h3,
+.category h3 {
+  color: var(--title-color-white);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  border-left: 4px solid var(--title-color-orange);
+  padding-left: 10px;
+  margin-bottom: 25px;
+}
+
 .left-menu {
   background-color: var(--primary-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  padding: 15px;
+  height: fit-content;
 }
 
 .left-menu > .category h3 {
@@ -34,17 +52,22 @@ ul {
   margin-bottom: 20px;
   text-align: center;
   color: var(--title-color-orange);
+  border-left: none;
 }
 
 .left-menu > .category ul li a {
-  width: 90%;
-  height: 30px;
-  text-decoration: none;
-  color: var(--title-color-white);
+    border-bottom: none !important;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: block;
+    color: var(--title-color-white);
+    text-decoration: none;
 }
 
 .left-menu > .category ul li a:hover {
-  color: var(--title-color-orange);
+    background-color: rgba(252, 163, 17, 0.1);
+    color: var(--title-color-orange);
 }
 
 .left-menu > .ads img {
@@ -58,30 +81,48 @@ ul {
 }
 
 .content .img-carousel {
-  width: 1296px;
-  height: 375px;
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: brightness(0.9);
 }
 
 .movies-cards .card,
 .series-cards .card {
-  margin-bottom: 15px;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
 }
 
-.movies-cards .card:hover,
-.series-cards .card:hover,
-.category-cf-cards .card:hover {
-  border-color: var(--title-color-orange);
-  opacity: 0.5;
-  cursor: pointer;
-  transition: all 0.5s ease;
+.movie-card,
+.serie-card {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
 }
 
-.movies-cards > h3,
-.series-cards > h3 {
-  color: var(--title-color-orange);
+.card a {
+  display: block;
+  text-decoration: none;
+  line-height: 0;
 }
 
+.card a img {
+  width: 100%;
+  display: block;
+}
 
+.movies-cards .card:hover .movie-card,
+.series-cards .card:hover .serie-card {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(252, 163, 17, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 10;
+}
 
 @media screen and (max-width: 768px) {
   .left-menu > .category h3 {
@@ -90,24 +131,14 @@ ul {
   }
 
   .content .img-carousel {
-    width: 600px;
-    height: 175px;
+    height: 250px;
   }
 
   .movie-card,
   .serie-card {
-    width: 200px;
     height: 500px;
   }
 }
-
-/* section {
-    background-color: rgb(94, 90, 90);
-} */
-/* main {
-  margin-top: 80px;
-} */
-
 
 #img-suscripcion {
   width: 90px;
@@ -124,6 +155,7 @@ ul {
   height: 30px;
   margin-top: 6px;
 }
+
 #img-btn-hamburguesa {
   width: 40px;
   margin-left: -20px;
@@ -134,29 +166,32 @@ ul {
     margin-top: 100px;
   }
 }
+
 @media (max-width: 393px) {
   #btn-hamburguesa {
     margin-left: -10px;
     margin-top: 5px;
   }
 }
+
 @media (max-width: 375px) {
   #btn-hamburguesa {
     margin-right: 150px;
     margin-top: 5px;
   }
 }
-@media (max-widht: 992px) {
+
+@media (max-width: 992px) {
   #nav-search {
     display: none;
   }
 }
+
 @media (max-width: 991px) {
   #btn-subscricpcion {
     display: none;
   }
 }
-/* INICIO FOOTER */
 
 .container-footer {
   background-color: var(--primary-color);
@@ -179,4 +214,10 @@ ul {
   bottom: 20px;
   left: 1482px;
   opacity: 0.6;
+}
+
+
+body#home .card {
+    border: none !important;
+    background: transparent !important;
 }
